@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Mozilla Brasil</title>
+		<meta name="generator" content="DocPad v6.60.4" />
+		<style >html.wait {
+	cursor: wait !important;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}</style>
+		<link href="/css/style.css" rel="stylesheet" type="text/css" />
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,400,700,900' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+			<div id="conteudo">
+				
+				<div id="logo_campus">Campus Party</div>
+				
+				<div class="social_media">
+					<a href="http://fb.com/mozillabrasil" target="_blank"><h4>f</h4></a>
+				</div>
+				<div class="social_media">
+					<a href="http://twitter.com/mozillabrasil" target="_blank"><h4>t</h4></a>
+				</div>
+				
+				<div class="logo_mozilla"></div>
+				
+				<div id="logo_campus_peq"></div>
+				
+				<div id="texto">
+					<h2 style="position:relative;">Olá!</h2>
+					<p style="position:relative;">Venha conhecer a Comunidade Mozilla Brasileira aqui na Campus Party. Temos várias atividades planejadas para todo tipo de entusiasta de tecnologia: palestras, hackathons. Venha fazer uma web livre com a gente! </p>
+					<h3 style="position:relative;">
+					    
+					            <a class="main-page-link" href="/appmaker.html">
+					                Appmaker
+					            </a> |
+						 
+					            <a class="main-page-link" href="/atividades.html">
+					                Atividades
+					            </a> |
+						 
+					            <a class="main-page-link" href="/comunidade.html">
+					                Comunidade
+					            </a> |
+						 
+					            <a class="main-page-link" href="/hackathon.html">
+					                Hackathons
+					            </a> |
+						 
+					            <a class="main-page-link" href="/index.html">
+					                Principal
+					            </a> |
+						 
+					</h3>
+					<div id="content">
+					<h1>Comunidade</h1>
+					<p>Welcome to My Website!</p>
+<h1 id="test">Test</h1>
+<h2 id="test">Test</h2>
+
+					</div>
+				</div>
+								
+			</div>
+			<div id="fundo"></div>
+			<script >(function(){
+	/* Did we just livereload? */
+var log = !!(localStorage && console && console.log && true);
+if ( log && localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReload completed at', new Date())
+}
+
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var primus = new Primus('/docpad-livereload');
+	primus.on('data', function(data){
+		if ( data && data.message ) {
+			if ( data.message === 'generateBefore' ) {
+				if ( log ) {
+					console.log('LiveReload started at', new Date());
+				}
+				if ( typeof document.getElementsByTagName !== 'undefined' ) {
+	document.getElementsByTagName('html')[0].className += ' wait';
+}
+			}
+			else if ( data.message === 'generateAfter' ) {
+				if ( log ) {
+					localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+				}
+				document.location.reload();
+			}
+		}
+	});
+};
+	/* Inject socket into our page */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = 'async';
+	t.src = '/primus/primus.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t, s);
+};
+	if ( typeof Primus !== 'undefined' ) {
+		listen();
+	} else {
+		inject();
+	}
+})();</script>
+	</body>
+</html>

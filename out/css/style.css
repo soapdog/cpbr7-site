@@ -1,0 +1,542 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* MOBILE */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	html,
+	body {
+		overflow: auto;
+	}
+	
+	html {
+		background: #FFF; 
+	}
+	
+	body {
+		font-family: 'Lato';
+		font-weight: 400;
+		font-size: 16px;
+		color: #000;
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	a:link{
+		text-decoration: none;
+	}
+	
+	a:visited {
+		text-decoration: none;
+	}
+	
+	a:active {
+		text-decoration: none;
+	}
+	
+	a:hover {
+		text-decoration: none;
+	}
+	
+	img{
+		border: 0;
+	}
+	
+	#texto {
+		position: relative;
+		max-width: 600px;
+		overflow: hidden;
+		height: 450px;
+		z-index: 10;
+		color: #7E7D78;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	p{
+		position: relative;
+		font-family: 'Lato';
+		font-weight: 400;
+		font-size-adjust:0.488;
+		font-weight:200;
+		font-style:normal;
+		font-size:16px;
+		padding: 30px;
+		top: 10px;
+	}
+	
+	h1, #pixels{
+		font-family: 'Lato';
+		font-weight: 400;
+		font-size: 16px;
+		font-size-adjust:0.40;
+		font-style:normal;
+	}
+	
+	h2{
+		font-family: 'Lato';
+		font-weight: 100;
+		font-size-adjust:0.531;
+		font-style:normal;
+		font-size: 100px; 
+		letter-spacing:-15px;
+		top: 45px;
+	}
+	
+	h3{
+		font-family: 'Lato';
+		font-weight: 400;
+		font-size-adjust:0.488;
+		font-weight:200;
+		font-style:normal;
+		font-size:20px; 
+		font-weight:400; 
+		color:#7E7D78;
+		line-height: 30px;
+		padding: 20px;
+		top: -20px;
+
+	}
+	
+	#conteudo{
+		max-width: 980px;
+		padding-top: 30px;
+		margin-left: auto;
+		margin-right: auto; 
+		clear: both;
+	}
+	
+	#conteudo .logo_mozilla{
+		background: url('/images/logo_capa_peq.svg') no-repeat;
+		margin-left: auto;
+		margin-right: auto;
+		height: 275px;
+		top: -30px;
+		position: relative;
+		width: 224px;
+		z-index: 10;
+	}
+	
+	#fundo{
+		background: url('/images/fundo_barra-02.png') repeat-x #7E7D78;
+		border-bottom: 5px solid #6D6C68;
+		position: relative;
+		top: 0;
+		left: 0;
+		position: absolute;
+		height: 320px;
+		width: 100%;
+	}
+	
+	.social_media {
+		display: block;
+		margin-bottom: -20px;
+	}
+	
+	#logo_campus_peq {
+		display: block;
+		background: url('/images/campus_peq-04.png') no-repeat;
+		position: relative;
+		left: 0;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		top: 0;
+		margin-bottom: -50px;
+		height: 66px;
+		width: 289px;
+		z-index: 30;
+	}
+	
+}
+
+
+/* TABLET */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	html,
+	body {
+		overflow: auto;
+	}
+	
+	html {
+		background: #FFF; 
+	}
+	
+	body {
+		font-family: 'Lato';
+		font-weight: 400;
+		font-size: 16px;
+		color: #000;
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	a:link{
+		text-decoration: none;
+	}
+	
+	a:visited {
+		text-decoration: none;
+	}
+	
+	a:active {
+		text-decoration: none;
+	}
+	
+	a:hover {
+		text-decoration: none;
+	}
+	
+	img{
+		border: 0;
+	}
+	
+	#texto {
+		position: relative;
+		max-width: 600px;
+		overflow: hidden;
+		height: 450px;
+		z-index: 10;
+		color: #7E7D78;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	p{
+		position: relative;
+		font-family: 'Lato';
+		font-weight: 400;
+		font-size-adjust:0.488;
+		font-weight:200;
+		font-style:normal;
+		font-size:20px;
+	}
+	
+	h1, #pixels{
+		font-family: 'Lato';
+		font-weight: 400;
+		font-size: 16px;
+		font-size-adjust:0.40;
+		font-style:normal;
+	}
+	
+	h2{
+		font-family: 'Lato';
+		font-weight: 100;
+		font-size-adjust:0.531;
+		font-style:normal;
+		font-size: 180px; 
+		letter-spacing:-25px;
+		top: 0px;
+	}
+	
+	h3{
+		font-family: 'Lato';
+		font-weight: 400;
+		font-size-adjust:0.488;
+		font-weight:200;
+		font-style:normal;
+		font-size:22px; 
+		font-weight:400; 
+		color:#7E7D78;
+		line-height: 40px;
+		top: 30px;
+	}
+	
+	#conteudo{
+		max-width: 980px;
+		padding-top: 50px;
+		margin-left: auto;
+		margin-right: auto; 
+		clear: both;
+	}
+	
+	#conteudo .logo_mozilla{
+		background: url('/images/logo_capa.svg') no-repeat;
+		margin-left: auto;
+		margin-right: auto;
+		height: 490px;
+		position: relative;
+		width: 375px;
+		top: 0px;
+		z-index: 10;
+	}
+	
+	#fundo{
+		background: url('/images/fundo_barra-02.png') repeat-x #7E7D78;
+		border-bottom: 5px solid #6D6C68;
+		position: relative;
+		top: 0;
+		left: 0;
+		position: absolute;
+		height: 455px;
+		width: 100%;
+	}
+	
+	.social_media {
+		height: 70px;
+		width: 70px;
+		margin-bottom: -60px;
+		top: -30px;
+		left: 10px;
+		position: relative;	
+		z-index: 20;
+	}
+	
+	#conteudo .social_media {
+		height: 61px;
+		width: 61px;
+		float: left;
+		margin-left: 10px;
+		overflow: hidden;
+		background: #6D6C68;
+		transition: background .25s ease-in-out;
+		-moz-transition: background .25s ease-in-out;
+		-webkit-transition: background .25s ease-in-out;
+	}
+	
+		#conteudo .social_media:hover {
+			background: #494946;
+	   }
+	   
+	#conteudo .social_media h4 {
+		position: relative;
+		left: 25px;
+		top: -15px;
+		font-size: 70px;
+		font-weight: 900;
+		color: #FFF;
+	}
+}
+
+
+/* DESKTOP */
+@media only screen and (min-width: 1024px) {
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	html,
+	body {
+		overflow: auto;
+	}
+	
+	html {
+		background: #FFF; 
+	}
+	
+	body {
+		font-family: 'Lato';
+		font-weight: 400;
+		font-size: 16px;
+		color: #000;
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	a:link{
+		text-decoration: none;
+	}
+	
+	a:visited {
+		text-decoration: none;
+	}
+	
+	a:active {
+		text-decoration: none;
+	}
+	
+	a:hover {
+		text-decoration: none;
+	}
+	
+	img{
+		border: 0;
+	}
+	
+	#texto {
+		position: relative;
+		float: left;
+		max-width: 600px;
+		overflow: hidden;
+		z-index: 10;
+		color: #FFF;
+		height: auto;
+		text-align: left;
+	}
+	
+	p{
+		font-family: 'Lato';
+		font-weight: 400;
+		font-size-adjust:0.488;
+		font-weight:200;
+		font-style:normal;
+		font-size:20px;
+		top: -60px;
+		text-shadow: #5C5B58 5px 5px 10px;
+	}
+	
+	h1, #pixels{
+		font-family: 'Lato';
+		font-weight: 400;
+		font-size: 16px;
+		font-size-adjust:0.40;
+		font-style:normal;
+	}
+	
+	h2{
+		font-family: 'Lato';
+		font-weight: 100;
+		font-size-adjust:0.531;
+		font-style:normal;
+		font-size: 250px; 
+		letter-spacing:-40px;
+		top: -50px;
+		left: -15px;
+		text-shadow: #5C5B58 5px 5px 10px;
+	}
+	
+	h3{
+		font-family: 'Lato';
+		font-weight: 400;
+		font-size-adjust:0.488;
+		font-weight:200;
+		font-style:normal;
+		margin-left: auto;
+		margin-right: auto;
+		font-size:20px; 
+		font-weight:400; 
+		color:#7E7D78;
+		line-height: 30px;
+		top: -10px;
+	}
+	
+	#conteudo{
+		max-width: 980px;
+		padding-top: 100px;
+		margin-left: auto;
+		margin-right: auto; 
+		clear: both;
+	}
+	
+	#conteudo .logo_mozilla{
+		background: url('/images/logo_capa.svg') no-repeat;
+		float: right;
+		height: 490px;
+		position: relative;
+		width: 375px;
+		z-index: 10;
+	}
+	
+	#fundo{
+		background: url('/images/fundo_barra-02.png') repeat-x #7E7D78;
+		border-bottom: 5px solid #6D6C68;
+		position: relative;
+		top: 0;
+		left: 0;
+		position: absolute;
+		height: 485px;
+		width: 100%;
+	}
+	
+	.social_media {
+		height: 70px;
+		width: 70px;
+		margin-bottom: -60px;
+		top: -70px;
+		position: relative;	
+		z-index: 20;
+	}
+	
+	#conteudo .social_media {
+		height: 61px;
+		width: 61px;
+		float: left;
+		margin-left: 10px;
+		overflow: hidden;
+		background: #6D6C68;
+		transition: background .25s ease-in-out;
+		-moz-transition: background .25s ease-in-out;
+		-webkit-transition: background .25s ease-in-out;
+	}
+	
+		#conteudo .social_media:hover {
+			background: #494946;
+	   }
+	   
+	#conteudo .social_media h4 {
+		position: relative;
+		left: 30px;
+		top: -8px;
+		font-size: 70px;
+		font-weight: 900;
+		color: #FFF;
+	}
+	
+	#logo_campus {
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		background: url('/images/logo_campus-03.png') no-repeat;
+		height: 186px;
+		width: 371px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: -186px;
+		margin-top: -110px;
+		position: relative;
+		left: 0;
+		top: 0;
+		z-index: 30;
+	}
+	
+	.main-page-link {
+		decoration: none;
+		color:#7E7D78;
+	}
+	
+	#content h3 {
+		color:#7E7D78;
+	}
+	
+	#content h2 {
+		color:#7E7D78;
+		font-family: 'Lato';
+		font-weight: 400;
+		font-size: 35px;
+		font-size-adjust:0.40;
+		font-style: normal;
+		letter-spacing: normal;
+		text-shadow: none;
+		line-height: 55px;
+	}
+	
+	#content h1 {
+		color:#7E7D78;
+		font-size: 40px;
+		line-height: 60px;
+	}
+	
+	#content p {
+		color: rgba(18, 14, 14, 1);
+		font-family: 'Arial';
+		font-weight: 400;
+		font-size-adjust:0.488;
+		font-weight:200;
+		font-style:normal;
+		font-size:20px;
+		text-shadow: none;
+	}
+}
