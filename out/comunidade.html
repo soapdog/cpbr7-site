@@ -4,12 +4,8 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Mozilla Brasil</title>
 		<meta name="generator" content="DocPad v6.60.4" />
-		<style >html.wait {
-	cursor: wait !important;
-	opacity: 0;
-	transition: opacity 0.5s ease;
-}</style>
-		<link href="/css/style.css" rel="stylesheet" type="text/css" />
+		
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
 		<link href='http://fonts.googleapis.com/css?family=Lato:100,400,700,900' rel='stylesheet' type='text/css'>
 	</head>
 
@@ -30,87 +26,43 @@
 				<div id="logo_campus_peq"></div>
 				
 				<div id="texto">
-					<h2 style="position:relative;">Olá!</h2>
+					<h2 class="ola" style="position:relative;">Olá!</h2>
 					<p style="position:relative;">Venha conhecer a Comunidade Mozilla Brasileira aqui na Campus Party. Temos várias atividades planejadas para todo tipo de entusiasta de tecnologia: palestras, hackathons. Venha fazer uma web livre com a gente! </p>
 					<h3 style="position:relative;">
-					    
-					            <a class="main-page-link" href="/appmaker.html">
-					                Appmaker
-					            </a> |
-						 
-					            <a class="main-page-link" href="/atividades.html">
+						<div class="menu">
+							<a href="index.html">Principal</a> | 
+						    
+					            <a class="main-page-link" href="atividades.html">
 					                Atividades
 					            </a> |
-						 
-					            <a class="main-page-link" href="/comunidade.html">
+							 
+					            <a class="main-page-link" href="comunidade.html">
 					                Comunidade
 					            </a> |
-						 
-					            <a class="main-page-link" href="/hackathon.html">
+							 
+					            <a class="main-page-link" href="hackathon.html">
 					                Hackathons
 					            </a> |
-						 
-					            <a class="main-page-link" href="/index.html">
-					                Principal
-					            </a> |
-						 
+							 
+							 <a href="http://appmaker.mozillalabs.com">Appmaker</a>
+						</div>
 					</h3>
 					<div id="content">
 					<h1>Comunidade</h1>
-					<p>Welcome to My Website!</p>
-<h1 id="test">Test</h1>
-<h2 id="test">Test</h2>
+					<h1 id="sobre-a-comunidade">Sobre a comunidade</h1>
+<p>Somos um grupo de pessoas de diferentes areas interessadas em difundir a missão da mozilla de manter a internet livre e para todos. </p>
+<p>Somos acima de tudo, entusiastas do projeto, doando nosso tempo livre em prol de levar para cada vez mais pessoas, os valores  </p>
+<p>interessadas em contribuir com a missão da Mozilla no Brasil.</p>
+<p>Somos uma comunidade de entusiastas  alinhados com os valores do projeto e tentando levar estes valores de abertura, liberdade e inovação adiante.</p>
+<p>Somos uma Comunidade Mozilla no Brasil. Este é o nosso experimento. Seja bem vindo, sinta-se em casa.</p>
+<p><a href="http://mozillabrasil.org.br">http://mozillabrasil.org.br</a></p>
+<p>Se inscreva na lista de discussão <a href="https://lists.mozilla.org/listinfo/community-brasil">https://lists.mozilla.org/listinfo/community-brasil</a> e participe das nossas discussões, idéias e projetos!</p>
 
 					</div>
 				</div>
 								
 			</div>
 			<div id="fundo"></div>
-			<script >(function(){
-	/* Did we just livereload? */
-var log = !!(localStorage && console && console.log && true);
-if ( log && localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
-	localStorage.removeItem('/docpad-livereload/reloaded');
-	console.log('LiveReload completed at', new Date())
-}
-
-/* Listen for the regenerated event and perform a reload of the page when the event occurs */
-var listen = function(){
-	var primus = new Primus('/docpad-livereload');
-	primus.on('data', function(data){
-		if ( data && data.message ) {
-			if ( data.message === 'generateBefore' ) {
-				if ( log ) {
-					console.log('LiveReload started at', new Date());
-				}
-				if ( typeof document.getElementsByTagName !== 'undefined' ) {
-	document.getElementsByTagName('html')[0].className += ' wait';
-}
-			}
-			else if ( data.message === 'generateAfter' ) {
-				if ( log ) {
-					localStorage.setItem('/docpad-livereload/reloaded', 'yes');
-				}
-				document.location.reload();
-			}
-		}
-	});
-};
-	/* Inject socket into our page */
-var inject = function(){
-	var t = document.createElement('script');
-	t.type = 'text/javascript';
-	t.async = 'async';
-	t.src = '/primus/primus.js';
-	t.onload = listen;
-	var s = document.getElementsByTagName('script')[0];
-	s.parentNode.insertBefore(t, s);
-};
-	if ( typeof Primus !== 'undefined' ) {
-		listen();
-	} else {
-		inject();
-	}
-})();</script>
+			
 	</body>
 </html>

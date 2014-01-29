@@ -1,5 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
+@font-face{font-family: Open-Sans;src: url('../fonts/OpenSans-Regular.ttf');}
+@font-face{font-family: OpenLight;src: url('../fonts/OpenSans-Light.ttf');}
 
 /* MOBILE */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
@@ -18,8 +20,8 @@
 	}
 	
 	body {
-		font-family: 'Lato';
-		font-weight: 400;
+		font-family: 'Open-Sans';
+		font-weight: 300;
 		font-size: 16px;
 		color: #000;
 		height: 100%;
@@ -28,10 +30,12 @@
 	
 	a:link{
 		text-decoration: none;
+		color: #006838;
 	}
 	
 	a:visited {
 		text-decoration: none;
+		color:#0F75BC;
 	}
 	
 	a:active {
@@ -40,6 +44,7 @@
 	
 	a:hover {
 		text-decoration: none;
+		color:#0F75BC;
 	}
 	
 	img{
@@ -60,7 +65,7 @@
 	
 	p{
 		position: relative;
-		font-family: 'Lato';
+		/*font-family: 'Lato';*/
 		font-weight: 400;
 		font-size-adjust:0.488;
 		font-weight:200;
@@ -71,7 +76,7 @@
 	}
 	
 	h1, #pixels{
-		font-family: 'Lato';
+		/*font-family: 'Lato';*/
 		font-weight: 400;
 		font-size: 16px;
 		font-size-adjust:0.40;
@@ -79,7 +84,7 @@
 	}
 	
 	h2{
-		font-family: 'Lato';
+		font-family: 'OpenLight';
 		font-weight: 100;
 		font-size-adjust:0.531;
 		font-style:normal;
@@ -89,7 +94,7 @@
 	}
 	
 	h3{
-		font-family: 'Lato';
+		/*font-family: 'Lato';*/
 		font-weight: 400;
 		font-size-adjust:0.488;
 		font-weight:200;
@@ -112,7 +117,7 @@
 	}
 	
 	#conteudo .logo_mozilla{
-		background: url('/images/logo_capa_peq.svg') no-repeat;
+		background: url('../images/logo_capa_peq.svg') no-repeat;
 		margin-left: auto;
 		margin-right: auto;
 		height: 275px;
@@ -123,7 +128,7 @@
 	}
 	
 	#fundo{
-		background: url('/images/fundo_barra-02.png') repeat-x #7E7D78;
+		background: url('../images/fundo_barra-02.png') repeat-x #7E7D78;
 		border-bottom: 5px solid #6D6C68;
 		position: relative;
 		top: 0;
@@ -140,7 +145,7 @@
 	
 	#logo_campus_peq {
 		display: block;
-		background: url('/images/campus_peq-04.png') no-repeat;
+		background: url('../images/campus_peq-04.png') no-repeat;
 		position: relative;
 		left: 0;
 		position: relative;
@@ -173,20 +178,22 @@
 	}
 	
 	body {
-		font-family: 'Lato';
+		font-family: 'Open-Sans';
 		font-weight: 400;
 		font-size: 16px;
 		color: #000;
 		height: 100%;
 		overflow: hidden;
 	}
-	
+
 	a:link{
 		text-decoration: none;
+		color: #006838;
 	}
 	
 	a:visited {
 		text-decoration: none;
+		color:#0F75BC;
 	}
 	
 	a:active {
@@ -195,6 +202,7 @@
 	
 	a:hover {
 		text-decoration: none;
+		color:#0F75BC;
 	}
 	
 	img{
@@ -215,7 +223,7 @@
 	
 	p{
 		position: relative;
-		font-family: 'Lato';
+		/*font-family: 'Lato';*/
 		font-weight: 400;
 		font-size-adjust:0.488;
 		font-weight:200;
@@ -224,7 +232,7 @@
 	}
 	
 	h1, #pixels{
-		font-family: 'Lato';
+		/*font-family: 'Lato';*/
 		font-weight: 400;
 		font-size: 16px;
 		font-size-adjust:0.40;
@@ -232,7 +240,7 @@
 	}
 	
 	h2{
-		font-family: 'Lato';
+		/*font-family: 'Lato';*/
 		font-weight: 100;
 		font-size-adjust:0.531;
 		font-style:normal;
@@ -242,7 +250,7 @@
 	}
 	
 	h3{
-		font-family: 'Lato';
+		/*font-family: 'Lato';*/
 		font-weight: 400;
 		font-size-adjust:0.488;
 		font-weight:200;
@@ -263,7 +271,7 @@
 	}
 	
 	#conteudo .logo_mozilla{
-		background: url('/images/logo_capa.svg') no-repeat;
+		background: url('../images/logo_capa.svg') no-repeat;
 		margin-left: auto;
 		margin-right: auto;
 		height: 490px;
@@ -274,7 +282,7 @@
 	}
 	
 	#fundo{
-		background: url('/images/fundo_barra-02.png') repeat-x #7E7D78;
+		background: url('../images/fundo_barra-02.png') repeat-x #7E7D78;
 		border-bottom: 5px solid #6D6C68;
 		position: relative;
 		top: 0;
@@ -311,6 +319,7 @@
 	   }
 	   
 	#conteudo .social_media h4 {
+		font-family: 'Lato';
 		position: relative;
 		left: 25px;
 		top: -15px;
@@ -338,7 +347,7 @@
 	}
 	
 	body {
-		font-family: 'Lato';
+		font-family: 'Open-Sans';
 		font-weight: 400;
 		font-size: 16px;
 		color: #000;
@@ -348,10 +357,12 @@
 	
 	a:link{
 		text-decoration: none;
+		color: #006838;
 	}
 	
 	a:visited {
 		text-decoration: none;
+		color:#0F75BC;
 	}
 	
 	a:active {
@@ -360,6 +371,11 @@
 	
 	a:hover {
 		text-decoration: none;
+		color:#0F75BC;
+	}
+
+	.menu {
+		margin-top: -40px;
 	}
 	
 	img{
@@ -378,18 +394,17 @@
 	}
 	
 	p{
-		font-family: 'Lato';
 		font-weight: 400;
 		font-size-adjust:0.488;
 		font-weight:200;
 		font-style:normal;
 		font-size:20px;
-		top: -60px;
+		top: -80px;
 		text-shadow: #5C5B58 5px 5px 10px;
 	}
 	
 	h1, #pixels{
-		font-family: 'Lato';
+		/*font-family: 'Lato';*/
 		font-weight: 400;
 		font-size: 16px;
 		font-size-adjust:0.40;
@@ -397,7 +412,6 @@
 	}
 	
 	h2{
-		font-family: 'Lato';
 		font-weight: 100;
 		font-size-adjust:0.531;
 		font-style:normal;
@@ -407,9 +421,13 @@
 		left: -15px;
 		text-shadow: #5C5B58 5px 5px 10px;
 	}
+
+	h2.ola {
+		font-family: 'OpenLight';
+		letter-spacing:-30px;
+	}
 	
 	h3{
-		font-family: 'Lato';
 		font-weight: 400;
 		font-size-adjust:0.488;
 		font-weight:200;
@@ -419,7 +437,7 @@
 		font-size:20px; 
 		font-weight:400; 
 		color:#7E7D78;
-		line-height: 30px;
+		line-height: 60px;
 		top: -10px;
 	}
 	
@@ -432,7 +450,7 @@
 	}
 	
 	#conteudo .logo_mozilla{
-		background: url('/images/logo_capa.svg') no-repeat;
+		background: url('../images/logo_capa.svg') no-repeat;
 		float: right;
 		height: 490px;
 		position: relative;
@@ -441,7 +459,7 @@
 	}
 	
 	#fundo{
-		background: url('/images/fundo_barra-02.png') repeat-x #7E7D78;
+		background: url('../images/fundo_barra-02.png') repeat-x #7E7D78;
 		border-bottom: 5px solid #6D6C68;
 		position: relative;
 		top: 0;
@@ -472,11 +490,12 @@
 		-webkit-transition: background .25s ease-in-out;
 	}
 	
-		#conteudo .social_media:hover {
-			background: #494946;
-	   }
+	#conteudo .social_media:hover {
+		background: #494946;
+   	}
 	   
 	#conteudo .social_media h4 {
+		font-family: 'Lato';
 		position: relative;
 		left: 30px;
 		top: -8px;
@@ -489,7 +508,7 @@
 		text-indent: 100%;
 		white-space: nowrap;
 		overflow: hidden;
-		background: url('/images/logo_campus-03.png') no-repeat;
+		background: url('../images/logo_campus-03.png') no-repeat;
 		height: 186px;
 		width: 371px;
 		margin-left: auto;
@@ -504,7 +523,16 @@
 	
 	.main-page-link {
 		decoration: none;
-		color:#7E7D78;
+		color:#006838;
+	}
+
+	a.main-page-link:hover {
+		decoration: none;
+		color:#0F75BC;
+	}
+
+	a.main-page-link:visited {
+		decoration: none;
 	}
 	
 	#content h3 {
@@ -513,30 +541,36 @@
 	
 	#content h2 {
 		color:#7E7D78;
-		font-family: 'Lato';
+		/*font-family: 'Lato';*/
 		font-weight: 400;
 		font-size: 35px;
 		font-size-adjust:0.40;
 		font-style: normal;
 		letter-spacing: normal;
 		text-shadow: none;
-		line-height: 55px;
+		line-height: 70px;
 	}
 	
 	#content h1 {
 		color:#7E7D78;
 		font-size: 40px;
-		line-height: 60px;
+		line-height: 70px;
 	}
 	
 	#content p {
 		color: rgba(18, 14, 14, 1);
-		font-family: 'Arial';
+		/*font-family: 'Arial';*/
 		font-weight: 400;
 		font-size-adjust:0.488;
 		font-weight:200;
 		font-style:normal;
 		font-size:20px;
 		text-shadow: none;
+		padding-bottom: 15px;
+	}
+	
+	#content ul {
+		color: rgba(18, 14, 14, 1);
+		list-style: circle;
 	}
 }

@@ -5,7 +5,7 @@
 		<title>Mozilla Brasil</title>
 		<%- @getBlock("meta").toHTML() %>
 		<%- @getBlock("styles").toHTML() %>
-		<link href="/css/style.css" rel="stylesheet" type="text/css" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
 		<link href='http://fonts.googleapis.com/css?family=Lato:100,400,700,900' rel='stylesheet' type='text/css'>
 	</head>
 
@@ -26,14 +26,18 @@
 				<div id="logo_campus_peq"></div>
 				
 				<div id="texto">
-					<h2 style="position:relative;">Olá!</h2>
+					<h2 class="ola" style="position:relative;">Olá!</h2>
 					<p style="position:relative;">Venha conhecer a Comunidade Mozilla Brasileira aqui na Campus Party. Temos várias atividades planejadas para todo tipo de entusiasta de tecnologia: palestras, hackathons. Venha fazer uma web livre com a gente! </p>
 					<h3 style="position:relative;">
-					    <% for page in @getCollection("html").findAll({isPage:true}).toJSON(): %>
-					            <a class="main-page-link" href="<%= page.url %>">
+						<div class="menu">
+							<a href="index.html">Principal</a> | 
+						    <% for page in @getCollection("html").findAll({isPage:true}).toJSON(): %>
+					            <a class="main-page-link" href="<%= page.url.slice(1) %>">
 					                <%= page.title %>
 					            </a> |
-						 <% end %>
+							 <% end %>
+							 <a href="http://appmaker.mozillalabs.com">Appmaker</a>
+						</div>
 					</h3>
 					<div id="content">
 					<h1><%= @document.title %></h1>
